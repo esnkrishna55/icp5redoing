@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  font-size: 100%;
+
+}
+.timer-container {
+  background-image: url("");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.timer div:last-child {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
